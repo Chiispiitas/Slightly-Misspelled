@@ -2,6 +2,14 @@
   "use strict";
 
   /**
+   * Language detection cookie
+   */
+  if (Cookies.get("lang") == undefined) {
+    let lang = navigator.language || navigator.userLanguage;
+    Cookies.set("lang", lang.split("-")[0]);
+  }
+
+  /**
    * Easy selector helper function
    */
   const select = (el, all = false) => {

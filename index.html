@@ -52,16 +52,16 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#" id="home">Home</a></li>
-          <li><a class="nav-link scrollto" href="#">Services</a></li>
-          <li><a class="nav-link scrollto " href="#">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#">Contact</a></li>
-          <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="#" id="services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#" id="portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#" id="contact">Contact</a></li>
+          <li class="dropdown"><a href="#" id="language"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#"><img src="assets/img/us.png">English</a></li>
-              <li><a href="#es"><img src="assets/img/es.png">Español</a></li>
+              <li><a href="javascript:changeLanguage('en')"><img src="assets/img/en.png">English</a></li>
+              <li><a href="javascript:changeLanguage('es')"><img src="assets/img/es.png">Español</a></li>
             </ul>
           </li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="#about" id="getstarted">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -281,11 +281,15 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/js-cookie/js.cookie-2.2.1.min.js"></script>
 
   <!-- JS Files -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/js.cookie-2.2.1.min.js"></script>
   <script src="assets/js/lang.js"></script>
+
+  <!-- Languages -->
+  <script src="assets/lang/en.js"></script>
+  <script src="assets/lang/es.js"></script>
 
 </body>
 
