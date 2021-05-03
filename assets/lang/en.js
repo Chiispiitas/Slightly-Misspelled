@@ -1,5 +1,8 @@
 (function en() {
 
+  var enButton = document.getElementById("en-button");
+  enButton.onclick = changeLanguage("en"); 
+
   var lang_en = {}
   if (lang_en.size == 0) {
     for (let string in lang_es) {
