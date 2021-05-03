@@ -1,6 +1,5 @@
-function changeLanguage() {
+function changeLanguage(lang) {
 
-  var lang = (window.location.hash).substring(1);
   Cookies.set("lang", lang);
 
   switch (lang) {

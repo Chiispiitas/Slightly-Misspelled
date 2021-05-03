@@ -1,4 +1,6 @@
-(function en() {
+(function initializeEN() {
+
+  document.getElementById("en-button").onclick = changeLanguage("en");
 
   var lang_en = {}
   if (lang_en.size == 0) {
