@@ -1,7 +1,7 @@
 (function es() {
 
   var esButton = document.getElementById("es-button");
-  esButton.onclick = changeLanguage("es"); 
+  esButton.onclick = changeLanguage(); 
 
   var lang_es = {
     // Header
