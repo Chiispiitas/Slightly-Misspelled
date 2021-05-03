@@ -1,8 +1,5 @@
 (function es() {
 
-  var esButton = document.getElementById("es-button");
-  esButton.onclick = changeLanguage(); 
-
   var lang_es = {
     // Header
     "home":"Inicio",
