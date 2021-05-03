@@ -178,7 +178,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul li {
-  min-width: 200px;
+  min-width: 140px;
+}
+
+.navbar .dropdown ul li img {
+  max-width: 30px;
+  vertical-align: middle;
 }
 
 .navbar .dropdown ul a {
