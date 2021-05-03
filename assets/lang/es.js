@@ -19,3 +19,13 @@
   }
 
 })()
+
+function es() {
+
+  if (Cookies.get("lang") == "es") {
+    for (let string in lang_es) {
+      document.getElementById(string).innerHTML = lang_es[string]
+    }
+  }
+
+}
