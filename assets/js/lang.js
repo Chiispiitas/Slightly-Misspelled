@@ -16,6 +16,6 @@
     }
   }
 
-  document.getElementById("home").innerHTML = Cookies.get("lang")
+  document.getElementById("home").innerHTML = (Cookies.get("lang")).split("-")[0]
 
 })()
