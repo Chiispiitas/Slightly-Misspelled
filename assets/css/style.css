@@ -179,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .dropdown ul li {
   min-width: 140px;
+  cursor: pointer;
 }
 
 .navbar .dropdown ul li img {
@@ -197,6 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #3498db;
+  background: #f5f5f5;
 }
 
 .navbar .dropdown:hover > ul {
