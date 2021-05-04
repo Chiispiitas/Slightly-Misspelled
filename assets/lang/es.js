@@ -1,31 +1,34 @@
+// Lang Strings.
+var langES = {
+  // Header
+  "home":"Inicio",
+  "services":"Servicios",
+  "portfolio":"Portafolio",
+  "contact":"Contacto", 
+  "language":"Idioma",
+  "getstarted":"Comenzar",
+};
+
+// Initialize (IIFE).
 (function initializeES() {
 
-  document.getElementById("es-button").onclick = changeLanguage("es");
-
-  var lang_es = {
-    // Header
-    "home":"Inicio",
-    "services":"Servicios",
-    "portfolio":"Portafolio",
-    "contact":"Contacto", 
-    "language":"Idioma",
-    "getstarted":"Comenzar",
-  }
+  document.getElementById("es-button").onclick = es;
 
   if (Cookies.get("lang") == "es") {
-    for (let string in lang_es) {
-      document.getElementById(string).innerHTML = lang_es[string]
+    for (let string in langES) {
+      document.getElementById(string).innerHTML = langES[string]
     }
   }
 
 })()
 
+// Change to ES.
 function es() {
 
-  if (Cookies.get("lang") == "es") {
-    for (let string in lang_es) {
-      document.getElementById(string).innerHTML = lang_es[string]
-    }
+  Cookies.set("lang", "es");
+
+  for (let string in langES) {
+    document.getElementById(string).innerHTML = langES[string]
   }
 
 }

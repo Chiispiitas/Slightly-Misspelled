@@ -1,28 +1,32 @@
+// Lang Strings (Populate with default HTML values, using "lang_es" keys as base).
+var langEN = {};
+var classLang = document.getElementsByClassName("lang");
+
+for (let i = 0; i < classLang.length; i++) {
+  let id = classLang[i].id;
+  langEN[id] = document.getElementById(id).innerHTML;
+}
+
+// Initialize (IIFE).
 (function initializeEN() {
 
-  document.getElementById("en-button").onclick = changeLanguage("en");
-
-  var lang_en = {}
-  if (lang_en.size == 0) {
-    for (let string in lang_es) {
-      lang_en[string] =  document.getElementById(string).innerHTML
-    }
-  }
+  document.getElementById("en-button").onclick = en;
 
   if (Cookies.get("lang") == "en") {
-    for (let string in lang_en) {
-      document.getElementById(string).innerHTML = lang_en[string]
+    for (let string in langEN) {
+      document.getElementById(string).innerHTML = langEN[string];
     }
   }
 
 })()
 
+// Change to EN.
 function en() {
 
-  if (Cookies.get("lang") == "en") {
-    for (let string in lang_en) {
-      document.getElementById(string).innerHTML = lang_en[string]
-    }
+  Cookies.set("lang", "en");
+
+  for (let string in langEN) {
+    document.getElementById(string).innerHTML = langEN[string];
   }
 
 }
