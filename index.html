@@ -57,8 +57,8 @@
           <li><a class="nav-link scrollto lang" href="#" id="contact">Contact</a></li>
           <li class="dropdown"><a href="#"><span class="lang" id="language">Language</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#" id="en-button"><img src="assets/img/en.png">English</a></li>
-              <li><a href="#" id="es-button"><img src="assets/img/es.png">Español</a></li>
+              <li><a id="en-button"><img src="assets/img/en.png">English</a></li>
+              <li><a id="es-button"><img src="assets/img/es.png">Español</a></li>
             </ul>
           </li>
           <li><a class="getstarted scrollto lang" href="#about" id="getstarted">Get Started</a></li>
@@ -75,10 +75,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Making you <font color=#3498db>global</font>.</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Translation, interpreting and much more...</h2>
+          <h1 data-aos="fade-up" class="lang" id="slogan">Making you <font color=#3498db>global</font>.</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400" class="lang" id="subslogan">Translation, interpreting and much more...</h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#about" class="btn-get-started scrollto lang" id="getstarted-2">Get Started</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
@@ -118,30 +118,38 @@
     <section id="about" class="about">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title lang" data-aos="fade-up" id="aboutus">
           <h2>About</h2>
         </div>
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-            <p>
+            <p class="lang" id="about-1">
               <font color=#3498db><b>Slightly Misspelled</b></font> is a service brought to you by David Santana, a freelancer
-              specialized in languages and teaching, with plenty of qualifications.
+              specialized in languages and teaching, with plenty of qualifications:
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Cambridge B2 (Upper-Intermediate) certificate in English.</li>
-              <li><i class="ri-check-double-line"></i> SETEC certification in translation and interpretation.</li>
-              <li><i class="ri-check-double-line"></i> International Academy of Coaching certification in coaching.</li>
-              <li><i class="ri-check-double-line"></i> ProFuturo certifications on modern teaching techniques.</li>
+              <li class="lang" id="about-2">
+                <i class="ri-check-double-line"></i> Cambridge B2 (Upper-Intermediate) certificate in English.
+              </li>
+              <li class="lang" id="about-3">
+                <i class="ri-check-double-line"></i> SETEC certification in translation and interpretation.
+              </li>
+              <li class="lang" id="about-4">
+                <i class="ri-check-double-line"></i> International Academy of Coaching certification in coaching.
+              </li>
+              <li class="lang" id="about-5">
+                <i class="ri-check-double-line"></i> ProFuturo certifications on modern teaching techniques.
+              </li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <p>
+            <p class="lang" id="about-6">
               Whether it's a translation, interpretation or language class; the final product will be of a very high quality,
-              supported by years of experience and multiple positive reviews by satisfied clients.<br><br>
+              supported by years of experience and multiple positive reviews from satisfied clients.<br><br>
               What are you waiting for? Become global now!
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
+            <a href="#" class="btn-learn-more lang" id="learnmore">Learn More</a>
           </div>
         </div>
 
@@ -164,7 +172,7 @@
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> that have loved working with us!</p>
+                    <p class="lang" id="happyclients"><strong>Happy Clients</strong> that have loved working with us!</p>
                   </div>
                 </div>
 
@@ -172,7 +180,7 @@
                   <div class="count-box">
                     <i class="bi bi-journal-richtext"></i>
                     <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Finished Projects</strong> including translations, interpretations and languagelessons!</p>
+                    <p class="lang" id="projects"><strong>Finished Projects</strong> including translations, interpretations and language lessons!</p>
                   </div>
                 </div>
 
@@ -180,7 +188,7 @@
                   <div class="count-box">
                     <i class="bi bi-clock"></i>
                     <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Years of experience</strong> performing language services formally.</p>
+                    <p class="lang" id="experience"><strong>Years of experience</strong> performing language services formally.</p>
                   </div>
                 </div>
 
@@ -188,7 +196,7 @@
                   <div class="count-box">
                     <i class="bi bi-award"></i>
                     <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Capacitations</strong> taken to provide you with the best quality possible.</p>
+                    <p class="lang" id="capacitations"><strong>Capacitations</strong> taken to provide you with the best quality possible.</p>
                   </div>
                 </div>
 
@@ -205,16 +213,16 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Frequently Asked Questions</h2>
+          <h2 class="lang" id="f.a.q">Frequently Asked Questions</h2>
         </div>
 
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-5">
             <i class="ri-question-line"></i>
-            <h4>Are English and Spanish the only languages you translate from?</h4>
+            <h4 class="lang" id="f.a.q-q1">Are English and Spanish the only languages you translate from?</h4>
           </div>
           <div class="col-lg-7">
-            <p>
+            <p class="lang" id="f.a.q-a1">
               Absolutely not! A translation software may be used to translate from any language, then corrected by using
               <b>proofreading techniques</b>. However, the target language <b>does</b> have to be either English or Spanish.
             </p>
@@ -224,10 +232,10 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-5">
             <i class="ri-question-line"></i>
-            <h4>What are your travel policies regarding interpretations?</h4>
+            <h4 class="lang" id="f.a.q-q2">What are your travel policies regarding interpretations?</h4>
           </div>
           <div class="col-lg-7">
-            <p>
+            <p class="lang" id="f.a.q-a2">
               Interpretations will only be done strictly within Ecuador, without the possibility of traveling to other countries.
               Additionally, inter-state travel costs will be included as part of the final price as honoraries (up to $50 a day).
               <br><br>You may want to consider the <b>virtual interpreter</b> plan for an international service.
@@ -238,11 +246,11 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-5">
             <i class="ri-question-line"></i>
-            <h4>Are payments done up front or after receiving the service?</h4>
+            <h4 class="lang" id="f.a.q-q3">Are payments done up front or after receiving the service?</h4>
           </div>
           <div class="col-lg-7">
-            <p>
-              Any sort of payment is always up front. However, if we are busy with other projects, you won't have to pay
+            <p class="lang" id="f.a.q-a3">
+              Any form of payment will always be done up front. However, if we are busy with other projects, you won't have to pay
               until it's your turn.
             </p>
           </div>
@@ -256,15 +264,15 @@
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-lg-6 text-lg-left text-center">
-          <div class="copyright">
-            &copy; Made by <strong>David Santana</strong>. All Rights Reserved
+          <div class="copyright lang" id="copyright">
+            &copy; Made by <strong>David Santana</strong>. All Rights Reserved.
           </div>
         </div>
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
+            <a href="#intro" class="scrollto lang" id="home-2">Home</a>
+            <a href="#" class="lang" id="privacy">Privacy Policy</a>
+            <a href="#" class="lang" id="tos">Terms of Service</a>
           </nav>
         </div>
       </div>
