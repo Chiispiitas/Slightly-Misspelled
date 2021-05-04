@@ -1,5 +1,6 @@
 // Lang Strings.
 var langES = {
+  /********************************* HOME *********************************/
   // Header
   "home":"Inicio",
   "services":"Servicios",
@@ -37,7 +38,25 @@ var langES = {
   "copyright":"&copy; Creado por <strong>David Santana</strong>. Derechos reservados.",
   "home-2":"Inicio",
   "privacy":"Política de Privacidad",
-  "tos":"Términos de Servicio"
+  "tos":"Términos de Servicio",
+  /********************************* BREADCRUMBS  *********************************/
+  "home-3":"Inicio",
+  "services-3":"Servicios",
+  "services-4":"Servicios",
+  /********************************* SERVICES  *********************************/
+  "services-2":"Servicios",
+  "translation-h":"Traducción",
+  "translation-p":"Traduciremos cualquier texto estático a inglés o español, ¡sin limitaciones con respecto al idioma de origen!",
+  "translation-r":"<i class=" + "bi-arrow-right" + "></i> Leer más",
+  "interpretation-h":"Interpretación",
+  "interpretation-p":"Realizaremos una traducción continua de una conversación en inglés o español. Esto puede realizarse de forma presencial o virtual.",
+  "interpretation-r":"<i class=" + "bi-arrow-right" + "></i> Leer más",
+  "lessons-h":"Clases de Idioma",
+  "lessons-p":"Impartiremos una clase de inglés o español abordando temas como: gramática, pronunciación y fluidez. Esto puede realizarse de forma presencial o virtual.",
+  "lessons-r":"<i class=" + "bi-arrow-right" + "></i> Leer más",
+  "materials-h":"Diseño de Material Didáctico",
+  "materials-p":"Diseñaremos todo tipo de material didáctico, incluyendo: pruebas, rompecabezas, presentaciones de diapositivas y videojuegos.",
+  "materials-r":"<i class=" + "bi-arrow-right" + "></i> Leer más",
 };
 
 // Initialize (IIFE).
@@ -47,6 +66,7 @@ var langES = {
 
   if (Cookies.get("lang") == "es") {
     for (let string in langES) {
+      if (document.getElementById(string) == null) { continue; }
       document.getElementById(string).innerHTML = langES[string]
     }
   }
@@ -59,6 +79,7 @@ function es() {
   Cookies.set("lang", "es");
 
   for (let string in langES) {
+    if (document.getElementById(string) == null) { continue; }
     document.getElementById(string).innerHTML = langES[string]
   }
 

@@ -14,6 +14,7 @@ for (let i = 0; i < classLang.length; i++) {
 
   if (Cookies.get("lang") == "en") {
     for (let string in langEN) {
+      if (document.getElementById(string) == null) { continue; }
       document.getElementById(string).innerHTML = langEN[string];
     }
   }
@@ -26,6 +27,7 @@ function en() {
   Cookies.set("lang", "en");
 
   for (let string in langEN) {
+    if (document.getElementById(string) == null) { continue; }
     document.getElementById(string).innerHTML = langEN[string];
   }
 
