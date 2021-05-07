@@ -67,6 +67,10 @@ var langES = {
   "trans-basic":"<h3>Básico</h3><h4>5¢<span> / palabra</span></h4><ul><li>Mínimo de 250 palabras</li><li>Hasta 1 revisión</li><li>Tiempo estimado de 3 horas por página</li><li class=" + "na" + ">Traduce desde cualquier idioma</li><li class=" + "na" + ">Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-basic" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
   "trans-deluxe":"<h3>Deluxe</h3><h4>8¢<span> / palabra</span></h4><ul><li>Mínimo de 250 palabras</li><li>Hasta 3 revisiones</li><li>Tiempo estimado de 2 horas por página</li><li>Traduce desde cualquier idioma</li><li>Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-deluxe" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
   "trans-express":"<h3>Express</h3><h4>6¢<span> / palabra</span></h4><ul><li>Sin mínimo de palabras</li><li>Hasta un máximo de 250 palabras</li><li>Tiempo estimado de 45 minutos</li><li class=" + "na" + ">Traduce desde cualquier idioma</li><li class=" + "na" + ">Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-express" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  /********************************* CONTACT *********************************/
+  "contact-2":"Contacto",
+  "contact-3":"Contacto",
+  "contact-4":"Contacto",
 };
 
 // Initialize (IIFE).
