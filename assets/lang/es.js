@@ -70,7 +70,6 @@ var langES = {
   /********************************* CONTACT *********************************/
   "contact-2":"Contacto",
   "contact-3":"Contacto",
-  "contact-4":"Contacto",
 };
 
 // Initialize (IIFE).
