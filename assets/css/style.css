@@ -1352,6 +1352,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact h2 {
+  margin-top: 56px;
+}
+
 .contact .contact-about h3 {
   font-size: 28px;
   margin: 0 0 10px 0;
@@ -1370,7 +1374,7 @@ section {
 }
 
 .contact .social-links {
-  padding-bottom: 64px;
+  padding-bottom: 92px;
 }
 
 .contact .social-links a {
