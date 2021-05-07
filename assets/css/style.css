@@ -1593,7 +1593,7 @@ section {
 }
 
 .fb_iframe_widget iframe {
-  max-height: 400;
+  max-height: 50%;
 }
 
 /*--------------------------------------------------------------
