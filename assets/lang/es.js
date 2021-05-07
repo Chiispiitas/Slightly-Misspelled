@@ -41,22 +41,32 @@ var langES = {
   "tos":"Términos de Servicio",
   /********************************* BREADCRUMBS  *********************************/
   "home-3":"Inicio",
+  "translation":"Traducción",
+  "translation-2":"Traducción",
   "services-3":"Servicios",
   "services-4":"Servicios",
-  /********************************* SERVICES  *********************************/
+  /********************************* SERVICES *********************************/
   "services-2":"Servicios",
   "translation-h":"Traducción",
-  "translation-p":"Traduciremos cualquier texto estático a inglés o español, ¡sin limitaciones con respecto al idioma de origen!",
+  "translation-p":"Traduciremos cualquier texto estático a inglés o español, ¡sin importar el idioma de origen!",
   "translation-r":"<i class=" + "bi-arrow-right" + "></i> Leer más",
   "interpretation-h":"Interpretación",
-  "interpretation-p":"Realizaremos una traducción continua de una conversación en inglés o español. Esto puede realizarse de forma presencial o virtual.",
+  "interpretation-p":"Realizaremos una traducción continua de una conversación en inglés o español. (Puede llevarse a cabo de forma presencial o virtual)",
   "interpretation-r":"<i class=" + "bi-arrow-right" + "></i> Leer más",
   "lessons-h":"Clases de Idioma",
-  "lessons-p":"Impartiremos una clase de inglés o español abordando temas como: gramática, pronunciación y fluidez. Esto puede realizarse de forma presencial o virtual.",
+  "lessons-p":"Impartiremos una clase de inglés o español abordando temas como: gramática, pronunciación y fluidez. (Puede llevarse a cabo de forma presencial o virtual)",
   "lessons-r":"<i class=" + "bi-arrow-right" + "></i> Leer más",
   "materials-h":"Diseño de Material Didáctico",
   "materials-p":"Diseñaremos todo tipo de material didáctico, incluyendo: pruebas, rompecabezas, presentaciones de diapositivas y videojuegos.",
   "materials-r":"<i class=" + "bi-arrow-right" + "></i> Leer más",
+  /********************************* TRANSLATION *********************************/
+  "translation-3":"Traducción",
+  "trans-details":"<strong>" + "Traduciremos cualquier texto estático a inglés o español, ¡sin importar el idioma de origen!" + "</strong><br><br>No importa si necesitas traducir un documento de texto plano, una diapositiva... ¡o incluso una imagen con texto! ¡Por favor, échale un vistazo a nuestras tarifas y elige la que más se adecúe a tu pedido!",
+  "pricing-t":"Precios",
+  "currency":"(Todos los precios mostrados son en centavos de dólar)",
+  "trans-basic":"<h3>Básico</h3><h4>5¢<span> / palabra</span></h4><ul><li>Mínimo de 250 palabras</li><li>Hasta 1 revisión</li><li>Tiempo estimado de 3 horas por página</li><li class=" + "na" + ">Traduce desde cualquier idioma</li><li class=" + "na" + ">Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-basic" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  "trans-deluxe":"<h3>Deluxe</h3><h4>8¢<span> / palabra</span></h4><ul><li>Mínimo de 250 palabras</li><li>Hasta 3 revisiones</li><li>Tiempo estimado de 2 horas por página</li><li>Traduce desde cualquier idioma</li><li>Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-deluxe" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  "trans-express":"<h3>Express</h3><h4>6¢<span> / palabra</span></h4><ul><li>Sin mínimo de palabras</li><li>Hasta un máximo de 250 palabras</li><li>Tiempo estimado de 45 minutos</li><li class=" + "na" + ">Traduce desde cualquier idioma</li><li class=" + "na" + ">Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-express" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
 };
 
 // Initialize (IIFE).
