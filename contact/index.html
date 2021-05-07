@@ -128,30 +128,10 @@
             </div>
           </div>
 
-          <!-- Messenger plugin de chat Code -->
-          <div id="fb-root"></div>
-          <script>
-            window.fbAsyncInit = function() {
-              FB.init({
-                xfbml            : true,
-                version          : 'v10.0'
-              });
-            };
-
-            (function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-          </script>
-
           <!-- Your plugin de chat code -->
           <div class="fb-customerchat"
             attribution="page_inbox"
             page_id="105482575040555"
-            theme_color="#121212">
           </div>
 
         </div>
@@ -180,8 +160,25 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+  
+  <!-- Messenger plugin de chat Code -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v10.0'
+      });
+    };
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/aos/aos.js"></script>
