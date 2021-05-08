@@ -70,6 +70,7 @@ var langES = {
   /********************************* CONTACT *********************************/
   "contact-2":"Contacto",
   "contact-3":"Contacto",
+  "contact-info":"<strong>" + "Haciéndote global." + "</strong><br>Puedes contactarnos por medio de nuestro teléfono, e-mail o presionando el ícono de Messenger en la esquina inferior derecha de tu pantalla. Deberás iniciar sesión en tu cuenta de Facebook para adjuntar archivos.",
 };
 
 // Initialize (IIFE).
