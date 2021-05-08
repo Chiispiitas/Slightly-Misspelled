@@ -1592,7 +1592,7 @@ section {
   }
 }
 
-.fb_iframe_widget iframe {
+.fb_iframe_widget {
   max-height: 20px;
 }
 
