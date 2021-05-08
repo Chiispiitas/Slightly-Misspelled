@@ -1377,6 +1377,12 @@ section {
   padding-bottom: 92px;
 }
 
+@media (max-width: 768px) {
+  .contact .social-links {
+    padding-bottom: 20px;
+  }
+}
+
 .contact .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -1590,10 +1596,6 @@ section {
   .service-details .image {
     padding-bottom: 20px;
   }
-}
-
-.fb_iframe_widget {
-  max-height: 20px;
 }
 
 /*--------------------------------------------------------------
