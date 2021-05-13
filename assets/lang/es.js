@@ -43,6 +43,12 @@ var langES = {
   "home-3":"Inicio",
   "translation":"Traducción",
   "translation-2":"Traducción",
+  "interpretation":"Interpretación",
+  "interpretation-2":"Interpretación",
+  "lessons":"Clases",
+  "lessons-2":"Clases",
+  "design":"Diseño",
+  "design-2":"Diseño",
   "services-3":"Servicios",
   "services-4":"Servicios",
   /********************************* SERVICES *********************************/
@@ -67,6 +73,25 @@ var langES = {
   "trans-basic":"<h3>Básico</h3><h4>5¢<span> / palabra</span></h4><ul><li>Mínimo de 250 palabras</li><li>Hasta 1 revisión</li><li>Tiempo estimado de 3 horas por página</li><li class=" + "na" + ">Traduce desde cualquier idioma</li><li class=" + "na" + ">Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-basic" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
   "trans-deluxe":"<h3>Deluxe</h3><h4>8¢<span> / palabra</span></h4><ul><li>Mínimo de 250 palabras</li><li>Hasta 3 revisiones</li><li>Tiempo estimado de 2 horas por página</li><li>Traduce desde cualquier idioma</li><li>Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-deluxe" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
   "trans-express":"<h3>Express</h3><h4>6¢<span> / palabra</span></h4><ul><li>Sin mínimo de palabras</li><li>Hasta un máximo de 250 palabras</li><li>Tiempo estimado de 45 minutos</li><li class=" + "na" + ">Traduce desde cualquier idioma</li><li class=" + "na" + ">Guía de lenguaje gratuita</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#trans-express" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  /********************************* INTERPRETATION *********************************/
+  "interpretation-3":"Interpretación",
+  "inter-details":"<strong>" + "Realizaremos una traducción continua de una conversación en inglés o español." + "</strong><br><br>¿Tienes una reunión importante, o piensas irte de turismo a otro país? ¡Podemos ayudarte traduciendo en tiempo real, para que no tengas que preocuparte por problemas de comunicación!<br><br>De forma presencial, este servicio queda estrictamente limitado a Ecuador, ¡pero quizás quieras consultar por nuestro plan de <strong>intérprete virtual</strong> para un servicio internacional!",
+  "inter-basic":"<h3>Básico</h3><h4>$45<span> / hora</span></h4><ul><li>Mínimo de 2 horas</li><li>Limitado a Manabí, Ecuador</li><li class=" + "na" + ">Sin restricción de provincia</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#inter-basic" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  "inter-virtual":"<h3>Virtual</h3><h4>$35<span> / hora</span></h4><ul><li>Mínimo de 1 hora</li><li>Limitado a conferencias virtuales</li><li>Sin restricción de país</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#inter-virtual" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  "inter-inter":"<h3>Interprovincial</h3><h4>$60<span> / hora</span></h4><ul><li>Mínimo de 2 horas</li><li>Limitado a Ecuador</li><li>Sin restricción de provincia</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#inter-inter" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  /********************************* LESSONS *********************************/
+  "lessons-3":"Clases de Idioma",
+  "lesson-details":"<strong>" + "Impartiremos una clase de inglés o español abordando temas como: gramática, pronunciación y fluidez." + "</strong><br><br>¿Estás pasando un mal rato a la hora de mejorar tus habilidades de idioma? Por favor, ¡mira los distintos tipos de planes que tenemos y escoge el que más se adecúe a tus necesidades!",
+  "lesson-grammar":"<h3>Gramática</h3><h4>$15<span> / hora</span></h4><ul><li>Mínimo de 1 hora</li><li>Material de alta calidad</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#lesson-grammar" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  "lesson-conv":"<h3>Conversatorio</h3><h4>$10<span> / hora</span></h4><ul><li>Mínimo de 1 hora</li><li>Tema libre</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#lesson-conv" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  "lesson-pron":"<h3>Pronunciación</h3><h4>$20<span> / hora</span></h4><ul><li>Mínimo de 1 hora</li><li>Audios de práctica y ejercicios</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#lesson-pron" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  /********************************* DESIGN *********************************/
+  "design-3":"Diseño de Material Didáctico",
+  "design-details":"<strong>" + "Diseñaremos todo tipo de material didáctico, incluyendo: pruebas, rompecabezas, presentaciones de diapositivas y videojuegos." + "</strong><br><br>¿Quieres darle a tus estudiantes una gran experiencia de aprendizaje? Con nuestro servicio de diseño didáctico, podrás escoger cualquiera de nuestros planes, ¡y prepararemos todo tipo de material para tus clases!<br><br>No hay limitaciones con respecto a las asignaturas, ¡sé libre de pedirnos lo que necesites!",
+  "rights":"(Todo producto entregado será libre de derechos de autor)",
+  "design-videos":"<h3>Videos</h3><h4>$5-20<span> / minuto</span></h4><ul><li>Tema libre</li><li>Puede ser animado o grabado</li><li>Mínimo de 3 minutos</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#design-videos" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  "design-slides":"<h3>Presentaciones de diapositivas</h3><h4>$2-8<span> / diapositiva</span></h4><ul><li>Tema libre</li><li>Estilo libre</li><li>Mínimo de 4 diapositivas</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#design-slides" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  "design-games":"<h3>Videojuegos</h3><h4>$75-200</h4><ul><li>Género y tema libres</li><li>Portabilidad a navegadores, ejecutables y móviles</li><li>Diseñado con RPG Maker MV, limitado a 2D</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#design-games" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
   /********************************* CONTACT *********************************/
   "contact-2":"Contacto",
   "contact-3":"Contacto",
@@ -85,7 +110,7 @@ var langES = {
     }
   }
 
-})()
+})();
 
 // Change to ES.
 function es() {
