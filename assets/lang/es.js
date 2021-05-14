@@ -92,6 +92,23 @@ var langES = {
   "design-videos":"<h3>Videos</h3><h4>$5-20<span> / minuto</span></h4><ul><li>Tema libre</li><li>Puede ser animado o grabado</li><li>Mínimo de 3 minutos</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#design-videos" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
   "design-slides":"<h3>Presentaciones de diapositivas</h3><h4>$2-8<span> / diapositiva</span></h4><ul><li>Tema libre</li><li>Estilo libre</li><li>Mínimo de 4 diapositivas</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#design-slides" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
   "design-games":"<h3>Videojuegos</h3><h4>$75-200</h4><ul><li>Género y tema libres</li><li>Portabilidad a navegadores, ejecutables y móviles</li><li>Diseñado con RPG Maker MV, limitado a 2D</li></ul><div class=" + "btn-wrap" + "><a href=" + "../contact/index.html#design-games" + " target=" + "_blank" + " class=" + "btn-buy" + ">Contacto</a></div>",
+  /********************************* PORTFOLIO *********************************/
+  "portfolio-2":"Portafolio",
+  "portfolio-3":"Portafolio",
+  "portfolio-4":"Portafolio",
+  "portfolio-d":"¡Échale un vistazo a nuestros mejores trabajos hasta la fecha! Si gustas saber acerca de la calidad de nuestros servicios, este es el lugar perfecto.",
+  "carbon-chains":"Cadenas Carbonadas",
+  "carbon-chains-2":"Cadenas Carbonadas",
+  "carbon-chains-d":"",
+  /********************************* PORTFOLIO DETAILS *********************************/
+  "project-info":"Información del proyecto",
+  "category":"Categoría",
+  "client":"Cliente",
+  "sample":"Ninguno (Muestra)",
+  "date":"Fecha",
+  "language-2":"Idioma",
+  "spanish":"Español",
+  "project-disclaimer":"Este proyecto no se muestra en su totalidad por razones de seguridad.<br><br>La reproducción total o parcial está prohibida.",
   /********************************* CONTACT *********************************/
   "contact-2":"Contacto",
   "contact-3":"Contacto",
