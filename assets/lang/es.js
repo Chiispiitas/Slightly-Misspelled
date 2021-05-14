@@ -97,6 +97,7 @@ var langES = {
   "portfolio-3":"Portafolio",
   "portfolio-4":"Portafolio",
   "portfolio-d":"¡Échale un vistazo a nuestros mejores trabajos hasta la fecha! Si gustas saber acerca de la calidad de nuestros servicios, este es el lugar perfecto.",
+  "all":"Todo",
   "slideshow":"Diapositivas",
   "carbon-chains":"Cadenas Carbonadas",
   "carbon-chains-2":"Cadenas Carbonadas",
