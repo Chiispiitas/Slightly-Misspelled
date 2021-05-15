@@ -82,6 +82,9 @@ var langES = {
   "dub-3":"Doblaje",
   "dub-details":"<strong>\"Haremos un doblaje de un video en inglés o español. El video también puede ser subtitulado en caso de ser necesario.\"</strong><br><br>¿Hiciste un video y deseas traducirlo? ¡Por favor, échale un vistazo a nuestros planes y elige el que más se adecúe a tu pedido!",
   "pricing-d":"Precios",
+  "dub-dub":"<h3>Doblaje</h3><h4>$8<span> / minuto</span></h4><ul><li>Mínimo de 1 minuto</li><li>Hasta 1 revisión</li><li>Edición de audio</li></ul><div class=\"btn-wrap\"><a href=\"../contact/index.html#dub-dub\" target=\"_blank\" class=\"btn-buy\">Contacto</a></div>",
+  "dub-dub-&-sub":"<h3>Doblaje y Subtítulos</h3><h4>$12<span> / minuto</span></h4><ul><li>Mínimo de 1 minuto</li><li>Hasta 2 revisiones</li><li>Edición de audio y video</li></ul><div class=\"btn-wrap\"><a href=\"../contact/index.html#dub-dub-&-sub\" target=\"_blank\" class=\"btn-buy\">Contacto</a></div>",
+  "dub-sub":"<h3>Subtítulos</h3><h4>$6<span> / minuto</span></h4><ul><li>Mínimo de 1 minuto</li><li>Hasta 1 revisión</li><li>Edición de vídeo</li></ul><div class=\"btn-wrap\"><a href=\"../contact/index.html#dub-sub\" target=\"_blank\" class=\"btn-buy\">Contacto</a></div>",
   /********************************* INTERPRETATION *********************************/
   "interpretation-3":"Interpretación",
   "inter-details":"<strong>\"Realizaremos una traducción continua de una conversación en inglés o español.\"</strong><br><br>¿Tienes una reunión importante, o piensas irte de turismo a otro país? ¡Podemos ayudarte traduciendo en tiempo real, para que no tengas que preocuparte por problemas de comunicación!<br><br>De forma presencial, este servicio queda estrictamente limitado a Ecuador, ¡pero quizás quieras consultar por nuestro plan de <strong>intérprete virtual</strong> para un servicio internacional!",
