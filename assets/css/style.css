@@ -1031,11 +1031,12 @@ section {
   padding: 20px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info a {
+.portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 22px;
   font-weight: 600;
   color: #fff;
   transition: all ease-in-out 0.3s;
+  margin-bottom: 5px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -1047,7 +1048,7 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info a {
+.portfolio .portfolio-wrap:hover .portfolio-info h4 {
   color: #d2d8dd;
   font-size: 26px;
 }
