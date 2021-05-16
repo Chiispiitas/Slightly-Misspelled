@@ -116,6 +116,8 @@ var langES = {
   "carbon-chains-2":"Cadenas Carbonadas",
   "equations":"¿Qué es una Ecuación?",
   "equations-2":"Ecuaciones",
+  "stress":"¿Qué es el Estrés?",
+  "stress-2":"Estrés",
   /********************************* PORTFOLIO DETAILS *********************************/
   "project-info":"Información del proyecto",
   "category":"Categoría",
@@ -124,9 +126,12 @@ var langES = {
   "date":"Fecha",
   "language-2":"Idioma",
   "spanish":"Español",
+  "english":"Inglés",
   "project-disclaimer":"Este proyecto no se muestra en su totalidad por razones de seguridad.<br><br>La reproducción total o parcial está prohibida.",
   "dubbed-v":"Video Doblado",
   "original-v":"Video Original",
+  "trans-d":"Documento Traducido",
+  "original-d":"Documento Original",
   /********************************* CONTACT *********************************/
   "contact-2":"Contacto",
   "contact-3":"Contacto",

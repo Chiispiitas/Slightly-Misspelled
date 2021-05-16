@@ -36,10 +36,7 @@
   
   </head>
 
- <!-- ==============================================
-  *  Body
-  ============================================== -->
-  <body>
+<body>
 
     <!-- Header -->
     <header id="header" class="fixed-top d-flex align-items-center">
@@ -53,7 +50,7 @@
           <ul>
             <li><a class="nav-link scrollto lang" href="../index.html" id="home">Home</a></li>
             <li><a class="nav-link scrollto lang" href="../services/index.html" id="services">Services</a></li>
-            <li><a class="nav-link scrollto active lang" href="#" id="portfolio">Portfolio</a></li>
+            <li><a class="nav-link scrollto active lang" href="index.html" id="portfolio">Portfolio</a></li>
             <li><a class="nav-link scrollto lang" href="../contact/index.html" id="contact">Contact</a></li>
             <li class="dropdown"><a href="#"><span class="lang" id="language">Language</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
@@ -75,74 +72,88 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2 class="lang" id="portfolio-3">Portfolio</h2>
+          <h2 class="lang" id="stress">What is Stress?</h2>
           <ol>
             <li><a href="../index.html" class="lang" id="home-3">Home</a></li>
-            <li class="lang" id="portfolio-4">Portfolio</li>
+            <li><a href="index.html" class="lang" id="portfolio-2">Portfolio</a></li>
+            <li class="lang" id="stress-2">Stress</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2 class="lang" id="portfolio-2">Portfolio</h2>
-          <p class="lang" id="portfolio-d">Take a look at our best works at the moment! If you wish to know about the
-            quality of our services, this is the perfect place.
-          </p>
-        </div>
+        <div class="row gy-4">
 
-        <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active lang" id="all">All</li>
-              <li data-filter=".filter-trans" class="lang" id="trans-h">Translation</li>
-              <li data-filter=".filter-dub" class="lang" id="dub-h">Dubbing</li>
-              <li data-filter=".filter-design" class="lang" id="design">Design</li>
-            </ul>
-          </div>
-        </div>
+          <div class="col-lg-8 text-center">
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-trans">
-            <div class="portfolio-wrap" onclick="window.open('stress.html', '_blank')">
-              <img src="img/stress/thumbs.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4 class="lang" id="stress">What is Stress?</h4>
-                <p class="lang" id="translation">Translation</p>
-              </div>
+            <div class="section-title">
+              <h2 class="lang" id="trans-d">Translated Document</h2>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-dub">
-            <div class="portfolio-wrap" onclick="window.open('equations.html', '_blank')">
-              <img src="img/equations/thumbs.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4 class="lang" id="equations">What is an Equation?</h4>
-                <p class="lang" id="trans-&-dub">Translation & Dub</p>
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img style="width: 75%;" src="img/stress/stress-tr-1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img style="width: 75%;" src="img/stress/stress-tr-2.png" alt="">
+                </div>
+
               </div>
+              <div class="swiper-pagination"></div>
             </div>
+
+            <div class="section-title">
+              <h2 class="lang" id="original-d">Original Document</h2>
+            </div>
+
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img style="width: 75%;" src="img/stress/stress-or-1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img style="width: 75%;" src="img/stress/stress-or-2.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-            <div class="portfolio-wrap" onclick="window.open('carbon-chains.html', '_blank')">
-              <img src="img/carbon-chains/thumbs.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4 class="lang" id="carbon-chains">Carbon Chains</h4>
-                <p class="lang" id="slideshow">Slideshow</p>
-              </div>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3 class="lang" id="project-info">Project information</h3>
+              <ul>
+                <li><strong class="lang" id="category">Category</strong>: <span class="lang" id="translation">Translation</span></li>
+                <li><strong class="lang" id="client">Client</strong>: <span class="lang" id="sample">None (Sample Work)</span></li>
+                <li><strong class="lang" id="date">Project Date</strong>: 2020-08-09</li>
+                <li><strong class="lang" id="language-2">Language</strong>: <span class="lang" id="english">English</span></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+
+              <p><strong class="lang" id="project-disclaimer">
+                This project isn't fully depicted for security reasons.<br><br>Full or partial reproduction is prohibited.
+              </strong></p>
+
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
 
